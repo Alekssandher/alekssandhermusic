@@ -221,4 +221,74 @@ text-align:left;
 .footer .row a i{
 margin:0% 3%;
 }
+
+.linha {
+    margin: auto;
+    background-color: var(--linha);
+    width: 100%;
+    height: 1.2px;
+}
+.bloco-avatar {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    height: 165px;
+    background-color: var(--bloco);
+    text-decoration: none;
+    border-radius: 12px 15px 0px 0px;
+
+    background-image: url(imagens/perfil/avat.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+article {
+    width: 100%;
+    text-align: center;
+    color: var(--letra-avatar);
+}
+article > p {
+    padding-top: 10px;
+}
+.bloco-desc {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: var(--bloco);
+}
+.bloco {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bloco);
+    text-decoration: none;
+}
+.bloco-into-left {
+    
+    width: 65%;
+    text-align: center;
+    margin: auto;
+}
+.bloco-into-right {
+    width: 35%;
+    text-align: center;
+    
+}
+.play {
+    width: 15%;
+}
+.text-play {
+    margin-top: 5px;
+    color: var(--letra-avatar);
+}
+.bloco-img {
+    width: 70%;
+    
+}
 }
