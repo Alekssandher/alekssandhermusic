@@ -13,6 +13,7 @@ body {
 }
 :root {
     --letra-avatar: #ffffff;
+    --letra-p: #dbd8d8;
     --background-main: #3b414e;
     --background-footer: #1e1e1e; 
     --linha: #727274;
@@ -126,6 +127,7 @@ article {
     color: var(--letra-avatar);
 }
 article > p {
+    color: var(--letra-p);
     padding-top: 10px;
 }
 .bloco-desc {
