@@ -115,8 +115,8 @@ a:hover .apple {
     text-decoration: none;
     border-radius: 12px 15px 0px 0px;
 
-    background-image: url(imagens/perfil/avat.jfif);
-    background-position: center;
+    background-image: url(imagens/perfil/pfp.jpg);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -211,6 +211,14 @@ margin:0% 1%;
 }
 
 @media (max-width:720px){
+main {
+    height: 100%;
+    padding: 0px 40px 0px 40px;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 900px;
+}
+
 .footer{
 text-align:left;
 padding:5%;
@@ -240,8 +248,8 @@ margin:0% 3%;
     text-decoration: none;
     border-radius: 12px 15px 0px 0px;
 
-    background-image: url(imagens/perfil/avat.jfif);
-    background-position: center;
+    background-image: url(imagens/perfil/pfp.jpg);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     
